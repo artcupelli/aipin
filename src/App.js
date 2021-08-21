@@ -1,10 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import { Dashboard } from './screens';
+import './constants/fonts.module.css';
 
 function App() {
   return (
-    <Dashboard/>
+    <div className="body">
+      <div className="container">
+        <Dashboard/>
+      </div>
+    </div>
   );
 }
 

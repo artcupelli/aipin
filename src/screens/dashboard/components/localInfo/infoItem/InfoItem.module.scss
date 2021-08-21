@@ -1,0 +1,25 @@
+@import "../../../../../constants/colors.module.scss";
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transition: all 0.2s;
+
+    h2{
+        font-size: 1.1em;
+    }
+
+    .title{
+        font-weight: 400;
+    }
+
+    .info{
+        font-weight: 300;
+    }
+}
+
+.container:hover{
+    transition: all 0.2s;
+    color: $lightGreen;
+}
