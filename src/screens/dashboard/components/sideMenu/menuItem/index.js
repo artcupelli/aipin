@@ -4,10 +4,10 @@ import styles from './MenuItem.module.scss';
 
 function MenuItem({icon}) {
   return(
-    <div className={styles['mcontainer']}>
+    <div className={styles['container']}>
       {icon}
     </div>
   );
 }
 
-export default item;
+export default MenuItem;

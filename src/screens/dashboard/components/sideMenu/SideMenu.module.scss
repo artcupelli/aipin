@@ -1,0 +1,26 @@
+@import "../../../../constants/colors.module.scss";
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    align-items: center;
+
+    .menu{
+        background-color: $lightGreen;
+        background-image: url("../../../../images/plant.png");
+        background-size: 150vh;
+        background-position: -400px 0px;
+        background-repeat: no-repeat;
+        height: 95vh;
+        width: 70px;
+        border-radius: 25px ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        padding: 20px 0 0 0 ;
+    }
+}
