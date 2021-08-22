@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.7a491f43.chunk.css",
-    "main.js": "/static/js/main.d9f36a55.chunk.js",
-    "main.js.map": "/static/js/main.d9f36a55.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.24639d41.js",
-    "runtime-main.js.map": "/static/js/runtime-main.24639d41.js.map",
-    "static/js/2.13d9c8a2.chunk.js": "/static/js/2.13d9c8a2.chunk.js",
-    "static/js/2.13d9c8a2.chunk.js.map": "/static/js/2.13d9c8a2.chunk.js.map",
-    "static/js/3.6a9c8c2e.chunk.js": "/static/js/3.6a9c8c2e.chunk.js",
-    "static/js/3.6a9c8c2e.chunk.js.map": "/static/js/3.6a9c8c2e.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.7a491f43.chunk.css.map": "/static/css/main.7a491f43.chunk.css.map",
-    "static/js/2.13d9c8a2.chunk.js.LICENSE.txt": "/static/js/2.13d9c8a2.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
-    "static/media/SideMenu.module.scss": "/static/media/plant.fd44e33c.png"
+    "main.css": "/aipim/static/css/main.5f8ebe30.chunk.css",
+    "main.js": "/aipim/static/js/main.d9f36a55.chunk.js",
+    "main.js.map": "/aipim/static/js/main.d9f36a55.chunk.js.map",
+    "runtime-main.js": "/aipim/static/js/runtime-main.e6152add.js",
+    "runtime-main.js.map": "/aipim/static/js/runtime-main.e6152add.js.map",
+    "static/js/2.d92edf13.chunk.js": "/aipim/static/js/2.d92edf13.chunk.js",
+    "static/js/2.d92edf13.chunk.js.map": "/aipim/static/js/2.d92edf13.chunk.js.map",
+    "static/js/3.6a9c8c2e.chunk.js": "/aipim/static/js/3.6a9c8c2e.chunk.js",
+    "static/js/3.6a9c8c2e.chunk.js.map": "/aipim/static/js/3.6a9c8c2e.chunk.js.map",
+    "index.html": "/aipim/index.html",
+    "static/css/main.5f8ebe30.chunk.css.map": "/aipim/static/css/main.5f8ebe30.chunk.css.map",
+    "static/js/2.d92edf13.chunk.js.LICENSE.txt": "/aipim/static/js/2.d92edf13.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/aipim/static/media/logo.6ce24c58.svg",
+    "static/media/SideMenu.module.scss": "/aipim/static/media/plant.fd44e33c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.24639d41.js",
-    "static/js/2.13d9c8a2.chunk.js",
-    "static/css/main.7a491f43.chunk.css",
+    "static/js/runtime-main.e6152add.js",
+    "static/js/2.d92edf13.chunk.js",
+    "static/css/main.5f8ebe30.chunk.css",
     "static/js/main.d9f36a55.chunk.js"
   ]
 }
