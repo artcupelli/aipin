@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "https://api.hgbrasil.com",
-  "homepage" : "https://artcupelli.github.io/aipim",
+  "homepage": "https://artcupelli.github.io/aipin",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -18,6 +18,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "server": "node-env-run server --exec nodemon | pino-colada",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
@@ -44,6 +45,14 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-pino-logger": "^6.0.0",
+    "gh-pages": "^3.2.3",
+    "http-proxy-middleware": "^0.20.0",
+    "node-env-run": "^4.0.2",
+    "nodemon": "^2.0.12",
+    "npm-run-all": "^4.1.5",
+    "pino-colada": "^2.1.0"
   }
 }

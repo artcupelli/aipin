@@ -3,24 +3,23 @@
 .container{
     border-radius: 100px;
     background-color: $lightGray;
-    width: 35px;
-    height: 35px;
+    padding: 5px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: all 0.5s;
-    margin-bottom: 15%;
+
+    .hint{
+        display: none;
+        margin-right: 10px;
+    }
 }
 
 .container:hover{
     transition: all 0.5s;
-    width: 45px;
     height: 45px;
-}
 
-@media(max-width:1100px){
-    .container{
-        
-        margin: 0 1%;
+    .hint{
+        display: inline;
     }
 }

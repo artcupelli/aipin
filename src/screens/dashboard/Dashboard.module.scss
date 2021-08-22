@@ -1,28 +1,39 @@
 .container{
-    height: 100vh;
     display: flex;
     flex-direction: row;
+    max-width: 1500px;
+    align-items: stretch;
+    padding: 15px;
+    flex: 1;
+
 
     .right_col{
         display: flex;
         flex-direction: column;
+        flex: 14;
 
         .row1{
             display: flex;
             flex-direction: row;
-    
+            // width: 100%;
+            flex: 2;
+            justify-content: space-between;
+            align-items: stretch;
+            margin-top: 15px;
+
             .forecast{
-                margin-top: 2vh;
+                flex: 4;
                 display: flex;
                 flex-direction: row;
-            
+                justify-content: space-between;
+                flex-wrap: wrap;
             }
         }
 
         .row2{
             display: flex;
             flex-direction: row;
-            width: 100%;
+            flex: 3;
             justify-content: space-between;
 
         }
@@ -30,7 +41,63 @@
 
     }
 
+}
 
+@media(max-width: 1000px){
+    .container{
+        .right_col{
+            .row1{
+                flex-direction: column;
 
+                .forecast{
+                }
+            }
+        }
+    }
 
+}
+@media(max-width: 1100px){
+    .container{
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+}
+
+@media (max-width: 900px){
+    .container{
+        .right_col{
+            .row2{
+                flex-direction: column;
+                align-items: stretch;
+                
+            }
+        }
+    }
+}
+@media (max-width: 700px){
+    .container{
+        padding: 0;
+    }
+}
+
+@media(max-width: 570px){
+    .container{
+        .right_col{
+            .row1{
+            }
+        }
+    }
+}
+
+@media(max-width: 380px){
+    .container{
+        .right_col{
+            .row1{
+                .forecast{
+                    flex-direction: column;
+                }
+            }
+        }
+    }
 }

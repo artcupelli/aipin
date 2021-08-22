@@ -1,8 +1,9 @@
 @import '../../../../constants/colors.module.scss';
 
 .container{
-    width: 180px;
-    margin: 0 15px;
+    margin: 0 10px ;
+    min-width: 160px;
+    flex:1;
     background-color: $lightGray;
     border-radius: 15px;
     display: flex;
@@ -11,7 +12,6 @@
     align-items: center;
     color: $gray;
     min-height: 160px;
-    height: 20vh;
     transition: all 1s;
 
     .date{
@@ -46,4 +46,14 @@
         transition: all 0.5s;
     }
 
+}
+@media (max-width: 1000px){
+    .container{
+        margin-top: 15px;
+    }
+}
+@media (max-width: 350px){
+    .container{
+        margin: 15px 0 0 0;
+    }
 }

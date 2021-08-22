@@ -1,5 +1,4 @@
-@import "../../../../../constants/colors.module.scss";
-
+@import "../../../../../../constants/colors.module.scss";
 .container{
     display: flex;
     flex-direction: row;
@@ -7,7 +6,8 @@
     transition: all 0.2s;
 
     h2{
-        font-size: 1.1em;
+        font-size: 1em;
+        margin: 0;
     }
 
     .title{
@@ -16,13 +16,11 @@
 
     .info{
         font-weight: 300;
+        text-align: right;
     }
 }
 
-.container:hover{
-    transition: all 0.2s;
-    color: $lightGreen;
-}
+
 
 @media(max-width: 630px){
     

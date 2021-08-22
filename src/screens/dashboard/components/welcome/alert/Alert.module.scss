@@ -1,26 +1,36 @@
 @import "../../../../../constants/colors.module.scss";
 
-.container{
+.container {
     display: flex;
     flex-direction: row;
     padding: 0px 15px;
     align-items: center;
     width: 47vw;
+    max-width: 450px;
+    min-width: 350px;
     border: 1px solid $red;
     border-radius: 15px;
     margin: 6px 0;
     justify-content: space-between;
 
-    .alert{
+    .alert {
         display: flex;
         flex-direction: row;
         align-items: center;
     }
 
-    h2{
+    h2 {
         margin-left: 15px;
         font-size: 1em;
         font-weight: 300;
-        color:  $red;
+        color: $red;
+    }
+}
+
+
+@media (max-width: 590px) {
+    .container{
+        width: 80%;
+        min-width: 0;
     }
 }

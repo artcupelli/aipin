@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import styles from './Info.module.scss';
 import InfoItem from './infoItem';
-import { RiSensorLine} from 'react-icons/ri';
+import {IoBulbOutline} from 'react-icons/io5';
 
 function LocalInfo({localInfo}) {
   
@@ -20,19 +20,19 @@ function LocalInfo({localInfo}) {
 
 
   return (
-      <div className={styles['container']}>
-          <h2 className={styles['main_title']}><RiSensorLine color="gray"/>{" "}Informações dos Sensores</h2>
+      <div className={styles['container']} style={{border: "1px solid", borderColor: localInfo?.led}}>
+          <h2 className={styles['main_title']}> <IoBulbOutline color={localInfo?.led} />{"  "}Informações dos Sensores</h2>
           <InfoItem title="Temperatura" info={localInfo?.temperature+ "°C"}/>
           <hr/>
           <InfoItem title="Resistência da plantação" info={localInfo?.plant_resistance+" / 5"}/>
           <hr/>
-          <InfoItem title="Umidade" info={localInfo?.humidity}/>
+          <InfoItem title="Umidade" info={localInfo?.humidity+"%"}/>
           <hr/>
           <InfoItem title="Índice de Luminosidade" info={localInfo?.photoresistor }/>
           <hr/>
           <InfoItem title="Tipo Climático" info={mapNumberToWeather(localInfo?.climate_type) }/>
           <hr/>
-          <InfoItem title="Objeto mais Próximo" info={localInfo?.distance }/>
+          <InfoItem title="Objeto mais Próximo" info={localInfo?.distance+"cm" }/>
 
       </div>
   );
