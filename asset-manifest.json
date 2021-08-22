@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/aipim/static/css/main.cb40c67f.chunk.css",
+    "main.css": "/aipim/static/css/main.2abfdb10.chunk.css",
     "main.js": "/aipim/static/js/main.442e2d1d.chunk.js",
     "main.js.map": "/aipim/static/js/main.442e2d1d.chunk.js.map",
     "runtime-main.js": "/aipim/static/js/runtime-main.bcf1482f.js",
@@ -10,7 +10,7 @@
     "static/js/3.0faa3240.chunk.js": "/aipim/static/js/3.0faa3240.chunk.js",
     "static/js/3.0faa3240.chunk.js.map": "/aipim/static/js/3.0faa3240.chunk.js.map",
     "index.html": "/aipim/index.html",
-    "static/css/main.cb40c67f.chunk.css.map": "/aipim/static/css/main.cb40c67f.chunk.css.map",
+    "static/css/main.2abfdb10.chunk.css.map": "/aipim/static/css/main.2abfdb10.chunk.css.map",
     "static/js/2.5ad4556a.chunk.js.LICENSE.txt": "/aipim/static/js/2.5ad4556a.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/aipim/static/media/logo.6ce24c58.svg",
     "static/media/SideMenu.module.scss": "/aipim/static/media/plant.fd44e33c.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.bcf1482f.js",
     "static/js/2.5ad4556a.chunk.js",
-    "static/css/main.cb40c67f.chunk.css",
+    "static/css/main.2abfdb10.chunk.css",
     "static/js/main.442e2d1d.chunk.js"
   ]
 }
