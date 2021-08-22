@@ -18,17 +18,13 @@ export class Sensors {
          
     }
 
-    getAllVariables (){
+    getRealtimeDatabase(){
         this.initializateDatabase()
 
         var database = firebase.database().ref();
-        var data;
 
-        database.on('value', (snapshot)=>{
-            data = snapshot.val();
-        })
 
-        return  data;
+        return  database;
     }
     
 }

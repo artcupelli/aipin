@@ -6,26 +6,31 @@ import { Sensors } from '../../data/sensors';
 
 function Dashboard() {
 
-  const [weatherInfo, setWeatherInfo] = useState(undefined);
-  const [localInfo, setLocalInfo] = useState(undefined);
+  const [weatherInfo, setWeatherInfo] = useState();
+  const [localInfo, setLocalInfo] = useState();
   const [changes, setChanges] = useState(false);
 
+
+  const getSensorsInfo = () => {
+    var sensor = new Sensors();
+    const database = sensor.getRealtimeDatabase()
+
+    database.on('value', (snapshot) => {
+      setLocalInfo(snapshot.val());
+    })
+
+  }
+
   const getTodayWeatherInfo = async () => {
-    const sensors = new Sensors();
-    setLocalInfo(sensors.getAllVariables());
-
-    setChanges(!changes);
-
     const weatherAPI = new Weather();
     const response = await weatherAPI.getTodayWeather();
 
     setWeatherInfo(response?.results);
-
-    setChanges(!changes);
   }
 
   useEffect(async () => {
     await getTodayWeatherInfo();
+    getSensorsInfo();
   }, []);
 
   return (
@@ -47,10 +52,10 @@ function Dashboard() {
 
         <div className={styles['row2']}>
           {
-            changes || true &&
+            (changes || !changes) &&
             <>
               <Info weatherInfo={weatherInfo} />
-              <LocalInfo localInfo={localInfo} />
+              <LocalInfo localInfo={localInfo}/>
             </>
           }
         </div>

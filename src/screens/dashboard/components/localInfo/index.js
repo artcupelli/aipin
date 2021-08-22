@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from './Info.module.scss';
 import InfoItem from './infoItem';
 import { RiSensorLine} from 'react-icons/ri';
 
 function LocalInfo({localInfo}) {
+  
 
   const mapNumberToWeather = (id) => {
     const weathers = new Map();
@@ -16,6 +17,7 @@ function LocalInfo({localInfo}) {
 
     return weathers.get(id);
   }
+
 
   return (
       <div className={styles['container']}>
