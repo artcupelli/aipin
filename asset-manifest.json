@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/aipin/static/css/main.805bc755.chunk.css",
-    "main.js": "/aipin/static/js/main.04e06343.chunk.js",
-    "main.js.map": "/aipin/static/js/main.04e06343.chunk.js.map",
+    "main.js": "/aipin/static/js/main.04c28793.chunk.js",
+    "main.js.map": "/aipin/static/js/main.04c28793.chunk.js.map",
     "runtime-main.js": "/aipin/static/js/runtime-main.97bd457b.js",
     "runtime-main.js.map": "/aipin/static/js/runtime-main.97bd457b.js.map",
     "static/js/2.9a578cda.chunk.js": "/aipin/static/js/2.9a578cda.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.97bd457b.js",
     "static/js/2.9a578cda.chunk.js",
     "static/css/main.805bc755.chunk.css",
-    "static/js/main.04e06343.chunk.js"
+    "static/js/main.04c28793.chunk.js"
   ]
 }
