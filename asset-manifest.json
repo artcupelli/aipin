@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/aipim/static/css/main.2abfdb10.chunk.css",
-    "main.js": "/aipim/static/js/main.442e2d1d.chunk.js",
-    "main.js.map": "/aipim/static/js/main.442e2d1d.chunk.js.map",
-    "runtime-main.js": "/aipim/static/js/runtime-main.bcf1482f.js",
-    "runtime-main.js.map": "/aipim/static/js/runtime-main.bcf1482f.js.map",
-    "static/js/2.5ad4556a.chunk.js": "/aipim/static/js/2.5ad4556a.chunk.js",
-    "static/js/2.5ad4556a.chunk.js.map": "/aipim/static/js/2.5ad4556a.chunk.js.map",
-    "static/js/3.0faa3240.chunk.js": "/aipim/static/js/3.0faa3240.chunk.js",
-    "static/js/3.0faa3240.chunk.js.map": "/aipim/static/js/3.0faa3240.chunk.js.map",
-    "index.html": "/aipim/index.html",
-    "static/css/main.2abfdb10.chunk.css.map": "/aipim/static/css/main.2abfdb10.chunk.css.map",
-    "static/js/2.5ad4556a.chunk.js.LICENSE.txt": "/aipim/static/js/2.5ad4556a.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/aipim/static/media/logo.6ce24c58.svg",
-    "static/media/SideMenu.module.scss": "/aipim/static/media/plant.fd44e33c.png"
+    "main.css": "/aipin/static/css/main.7a0acf16.chunk.css",
+    "main.js": "/aipin/static/js/main.442e2d1d.chunk.js",
+    "main.js.map": "/aipin/static/js/main.442e2d1d.chunk.js.map",
+    "runtime-main.js": "/aipin/static/js/runtime-main.ee8f4c59.js",
+    "runtime-main.js.map": "/aipin/static/js/runtime-main.ee8f4c59.js.map",
+    "static/js/2.93cf4d2e.chunk.js": "/aipin/static/js/2.93cf4d2e.chunk.js",
+    "static/js/2.93cf4d2e.chunk.js.map": "/aipin/static/js/2.93cf4d2e.chunk.js.map",
+    "static/js/3.0faa3240.chunk.js": "/aipin/static/js/3.0faa3240.chunk.js",
+    "static/js/3.0faa3240.chunk.js.map": "/aipin/static/js/3.0faa3240.chunk.js.map",
+    "index.html": "/aipin/index.html",
+    "static/css/main.7a0acf16.chunk.css.map": "/aipin/static/css/main.7a0acf16.chunk.css.map",
+    "static/js/2.93cf4d2e.chunk.js.LICENSE.txt": "/aipin/static/js/2.93cf4d2e.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/aipin/static/media/logo.6ce24c58.svg",
+    "static/media/SideMenu.module.scss": "/aipin/static/media/plant.fd44e33c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.bcf1482f.js",
-    "static/js/2.5ad4556a.chunk.js",
-    "static/css/main.2abfdb10.chunk.css",
+    "static/js/runtime-main.ee8f4c59.js",
+    "static/js/2.93cf4d2e.chunk.js",
+    "static/css/main.7a0acf16.chunk.css",
     "static/js/main.442e2d1d.chunk.js"
   ]
 }
