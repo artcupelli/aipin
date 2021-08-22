@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/aipim/static/css/main.5f8ebe30.chunk.css",
-    "main.js": "/aipim/static/js/main.0d37f1be.chunk.js",
-    "main.js.map": "/aipim/static/js/main.0d37f1be.chunk.js.map",
+    "main.js": "/aipim/static/js/main.e65f09e5.chunk.js",
+    "main.js.map": "/aipim/static/js/main.e65f09e5.chunk.js.map",
     "runtime-main.js": "/aipim/static/js/runtime-main.e6152add.js",
     "runtime-main.js.map": "/aipim/static/js/runtime-main.e6152add.js.map",
     "static/js/2.d92edf13.chunk.js": "/aipim/static/js/2.d92edf13.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.e6152add.js",
     "static/js/2.d92edf13.chunk.js",
     "static/css/main.5f8ebe30.chunk.css",
-    "static/js/main.0d37f1be.chunk.js"
+    "static/js/main.e65f09e5.chunk.js"
   ]
 }
